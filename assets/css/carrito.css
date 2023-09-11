@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 40px 40px 40px 40px;
+  box-sizing: border-box;
+  border: 5px solid rgb(89, 56, 122);
+  box-shadow: 0 0 9px 0 rgb(98, 75, 120) ;
+  font-family: "Jacques Francois Shadow", cursive;
+}
+
+.navbar-brand img {
+  width: 35px;
+  height: 35px;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  height: 100vh;
+}
+
+#cantidad-productos {
+  color: rgb(246, 14, 87);
+  font-size: 18px;
+}
+
+h1 {
+  padding: 10px;
+  -webkit-text-stroke: 2px rgb(71, 46, 108);
+  font-family: "Vampiro One", cursive;
+}
+
+.table th {
+  color: rgb(71, 46, 108);
+  font-size: 16px;
+}
+
+.table {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;  
+  background-color: rgb(249, 246, 253);
+  box-shadow: 0 0 9px 0;
+  font-family: "Jacques Francois Shadow", cursive;
+}
+
+#input-cupon {
+  margin-top: 20px;
+  background-color: rgb(235, 212, 182);
+}
+
+p#precio-total {
+  color: rgb(10, 51, 113);
+  font-size: 20px;
+}
+#btn-descuento {
+  margin-top: 20px;
+}

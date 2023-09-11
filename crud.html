@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/crud.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet">
+
+  <title>CRUD</title>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+      <a href="./index.html"><button class="btn btn-outline-success me-2" type="button">HOME</button></a>
+    </form>
+  </nav>
+
+  <div class="container">
+    <div class="header">
+      <span>INVENTARIO</span>
+      
+      <button onclick="openModal()" id="new" class="button">Agregar</i></button>
+    </div>
+    <div class="div-Table">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th class="accion">Editar</th>
+            <th class="accion">Borrar</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal">
+        <form>
+          <label class="size" for="nombre">Nombre</label>
+          <input id="nombre" type="text" required />
+
+          <label class="size" for="descripcion">Descripcion</label>
+          <input id="descripcion" type="text" required />
+
+          <label class="size" for="precio">Precio</label>
+          <input id="precio" type="number" required />
+          <button id="btnGuardar">Guardar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/crud.js"></script>
+</body>
+</html>
