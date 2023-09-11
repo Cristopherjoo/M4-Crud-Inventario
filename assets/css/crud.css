@@ -44,7 +44,7 @@ a {
   height: 80%;
   border-radius: 10px;
   background: rgb(249, 246, 253);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 
@@ -120,36 +120,6 @@ tbody tr td.accion {
   text-align: center;
 }
 
-@media (max-width: 700px) {
-  body {
-    font-size: 12px;
-  }
-
-  .header span {
-    font-size: 15px;
-  }
-  
-  thead tr th.accion {
-    width: auto
-  }
-/* 
-   td button i {
-    font-size: 20px
-  } 
-
-  td button i:first-child {
-    margin-right: 0;
-  } */
-
-  .modal {
-    width: 90%
-  }
-
-  .modal label {
-    font-size: 12px
-  }
-}
-
 .modal-container {
   width: 100vw;
   height: 100vh;
@@ -216,4 +186,38 @@ td button i {
 
 td button i:first-child {
   margin-right: 10px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header span {
+    font-size: 15px;
+  }
+
+  thead tr th.accion {
+    width: auto;
+  }
+
+  tr {
+    font-size: 12px;
+  }
+
+  td button i {
+    font-size: 12px;
+  }
+
+  td button i:first-child {
+    margin-right: 0;
+  }
+
+  .modal {
+    width: 90%;
+  }
+
+  .modal label {
+    font-size: 12px;
+  }
 }

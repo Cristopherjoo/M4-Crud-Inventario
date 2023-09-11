@@ -23,7 +23,7 @@ body {
   height: 35px;
 }
 
-#cantidad-productos {
+.cantidad-productos {
   color: rgb(246, 14, 87);
   font-size: 18px;
 }

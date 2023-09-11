@@ -35,7 +35,7 @@ function actualizarCarro(listadoProductos) {
     valorInicial
   );
 
-  document.querySelector("#cantidad-productos").innerText = sumaProductos;
+  document.querySelector("#cantidadProductos").innerText = sumaProductos;
 }
 
 cargarTablaProductos();
